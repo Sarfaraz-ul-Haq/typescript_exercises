@@ -1,5 +1,4 @@
-<h1>Certified GenAI, Web3 & Metaverse Developer & Solopreneur</h1>
-<h2>Week-4 Assignment - (Quarter 1)</h2>
+<h2>Week-4 Assignment (Quarter 1)</h2>
 
 Exercise 1:  Write a program that calculates the area of a rectangle.
 
