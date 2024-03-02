@@ -3,6 +3,9 @@
 
 // JavaScript / TypeScript applies the BODMAS rule to evaluate mathematical expressions.
 
-let evaluateExpression = ((10 + 5) * 3 - 2) / (4 % 3) - 7;
+function calculateResult(mathExpression: number): number {
+  return mathExpression;
+}
 
-console.log(evaluateExpression);
+const result = calculateResult(5 + ((5 + 5) % 2) - 1 + 100);
+console.log(result);
