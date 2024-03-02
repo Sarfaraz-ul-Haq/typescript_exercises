@@ -1,9 +1,9 @@
 // Exercise 1: Write a program that calculates the area of a rectange
 
-const lengthOfRectangle = 30;
-const widthOfRectangle = 15;
-const areaOfRectangle = lengthOfRectangle * widthOfRectangle;
+function calculateAreaOfRectangle(length: number, width: number): number {
+  const area = length * width;
+  return area;
+}
 
-console.log(`The area of the rectangle is ${areaOfRectangle} cm`);
-
-export {};
+const area = calculateAreaOfRectangle(100, 50);
+console.log(area);
