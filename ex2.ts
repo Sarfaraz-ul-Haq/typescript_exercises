@@ -5,6 +5,10 @@
 const sideOfCube = 10;
 const volumeOfCube = sideOfCube ** 3;
 
-console.log(`The volumn of the cube is ${volumeOfCube} cm`);
+function calculateCubeVolume(side: number): number {
+  const volume = side * 3;
+  return volume;
+}
 
-export {};
+const volume = calculateCubeVolume(70);
+console.log(volume);
